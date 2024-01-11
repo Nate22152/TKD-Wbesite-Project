@@ -5,9 +5,11 @@
 }
 /*logo design top right corner*/
 .logo{
-width:300px;
+width: 35vw;
 position: absolute;
-top:-8%;
+top: 5%;
+/*transform keesp the logo fron moving and fine-tune the position*/
+transform: translateY(-50%);
 }
 /*Accessed through google font*/
 /*Should display code to access for the specified font*/
@@ -15,15 +17,15 @@ body{
     font-family: 'Roboto Mono', monospace;
     background-color:black;
     color:white;
-    font-size:18px;
+    font-size: 1rem;
 }
 a{
     text-decoration:none;
     color: white;
 }
 header{
-    width: 1140px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1140vw;
     margin: auto;
     height: 55px;
     display: flex;
@@ -31,7 +33,7 @@ header{
     justify-content: flex-end;
 }
 header a{
-    margin-right: 40px;
+    margin-right: 20px;
 }
 .item img{
     max-width: 100%;
