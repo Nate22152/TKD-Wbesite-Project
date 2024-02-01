@@ -14,12 +14,12 @@
 }
 
 .banner {
-    height: 10vh;
+    height: 11vh;
     width: 40vw;
 }
 
 .banner img {
-    height: 10vh;
+    height: 12vh;
 }
 
 .navbar {
@@ -59,7 +59,7 @@
     padding-top: 10vh;
 }
 .hamburger{
-    padding-bottom: 4vh;
+    padding-bottom: 3vh;
 }
 .hamburger a{
     padding: 0;
@@ -67,7 +67,7 @@
     height: 37px;
     display: flex;
     border-radius: 50%;
-    background-color: rgba(115,115,115,0.7);
+    background-color: rgba(119, 117, 117, 0.39);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
