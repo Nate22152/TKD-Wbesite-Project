@@ -47,7 +47,7 @@
     margin-right: 20px;
     text-decoration: none;
     color: white;
-
+    text-transform: uppercase;
 }
 
 .item img {
@@ -57,4 +57,17 @@
 
 .carousel {
     padding-top: 10vh;
+}
+.hamburger{
+    padding-bottom: 4vh;
+}
+.hamburger a{
+    padding: 0;
+    width:37px;
+    height: 37px;
+    display: flex;
+    border-radius: 50%;
+    background-color: rgba(115,115,115,0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
