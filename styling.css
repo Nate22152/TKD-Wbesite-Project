@@ -4,38 +4,70 @@
     padding: 0;
 }
 /*logo design top right corner*/
-.logo{
-width: 35vw;
-position: absolute;
-top: 5%;
-/*transform keesp the logo fron moving and fine-tune the position*/
-transform: translateY(-50%);
-}
+
 /*Accessed through google font*/
 /*Should display code to access for the specified font*/
-body{
+.App {
     font-family: 'Roboto Mono', monospace;
-    background-color:black;
-    color:white;
+    background-color:rgb(23, 23, 23);
     font-size: 1rem;
 }
-a{
-    text-decoration:none;
-    color: white;
+
+.banner {
+    height: 10vh;
+    width: 40vw;
 }
-header{
-    width: 100%;
-    max-width: 1140vw;
-    margin: auto;
-    height: 55px;
+
+.banner img {
+    height: 10vh;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95vw;
+    height: 10vh;
     display: flex;
+    padding: 0 2rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: rgb(23, 23, 23);;
     align-items: center;
-    justify-content: flex-end;
 }
-header a{
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+.navbar ul li a {
     margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
 }
-.item img{
+
+.item img {
     max-width: 100%;
     height: auto;
+}
+
+.carousel {
+    padding-top: 10vh;
+}
+.hamburger{
+    padding-bottom: 4vh;
+}
+.hamburger a{
+    padding: 0;
+    width:37px;
+    height: 37px;
+    display: flex;
+    border-radius: 50%;
+    background-color: rgba(115,115,115,0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
